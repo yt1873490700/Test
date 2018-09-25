@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_bgcolor">
+
+    <TextView
+        android:id="@+id/home_title1"
+        style="@style/Home_Subtitle_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/home_parent0"
+        android:text="@string/msg_title1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <Button
+            android:id="@+id/common_user"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="普通用户" />
+        <Button
+            android:id="@+id/vip_user"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="VIP用户" />
+
+        <Button
+            android:visibility="invisible"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="广告推荐" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/Home_Subtitle_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/home_parent0"
+        android:text="@string/msg_title2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:id="@+id/common_news"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="热点新闻" />
+        <Button
+            android:id="@+id/common_ad"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="广告推荐" />
+        <Button
+            android:visibility="invisible"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="普通用户" />
+
+    </LinearLayout>
+
+</LinearLayout>

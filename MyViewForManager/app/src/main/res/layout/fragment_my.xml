@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bgcolor">
+    <RelativeLayout
+        android:id="@+id/info_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_20"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_marginLeft="@dimen/text_20"
+            android:id="@+id/my_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/tab_padding_top_bottom"
+            android:layout_marginBottom="@dimen/tab_padding_top_bottom"
+            android:background="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/sidebar_w"
+            android:layout_toRightOf="@+id/my_pic"
+            android:id="@+id/my_name"
+            android:layout_marginLeft="@dimen/common_paddingbigger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三"
+            android:textColor="@color/common_textcolor"
+            android:textSize="@dimen/common_itembigestsize"
+            />
+        <TextView
+            android:layout_below="@+id/my_name"
+            android:layout_toRightOf="@+id/my_pic"
+            android:id="@+id/my_career"
+            android:layout_marginLeft="@dimen/text_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数学教师"
+            android:textColor="@color/common_textcolor"
+            android:textSize="@dimen/common_itembigsize"
+            android:layout_marginTop="@dimen/common_padding"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_my"
+        android:layout_marginTop="@dimen/text_20"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:showDividers="beginning|middle|end" >
+
+        <TextView
+            android:id="@+id/fragmentmy_setting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_itemh"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/icon_shezhi"
+            android:drawablePadding="@dimen/common_padding"
+            android:drawableRight="@mipmap/icon_jiantou"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/common_padding"
+            android:paddingRight="@dimen/common_padding"
+            android:text="系统消息"
+            android:textColor="@color/common_textcolor"
+            android:textSize="@dimen/common_itembigsize" />
+            <View
+               android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color"
+                />
+        <TextView
+            android:id="@+id/fragmentmy_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_itemh"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/icon_anquan"
+            android:drawablePadding="@dimen/common_padding"
+            android:drawableRight="@mipmap/icon_jiantou"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/common_padding"
+            android:paddingRight="@dimen/common_padding"
+            android:text="我的信息"
+            android:textColor="@color/common_textcolor"
+            android:textSize="@dimen/common_itembigsize"
+             />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_itemh" >
+
+            <TextView
+                android:id="@+id/fragmentmy_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_itemh"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/icon_about"
+                android:drawablePadding="@dimen/common_padding"
+                android:drawableRight="@mipmap/icon_jiantou"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="@dimen/common_padding"
+                android:paddingRight="@dimen/common_padding"
+                android:text="关于我们"
+                android:textColor="@color/common_textcolor"
+                android:textSize="@dimen/common_itembigsize" />
+
+            <View
+                android:id="@+id/fragmentmy_new"
+                android:layout_width="@dimen/fragmentmy_neww"
+                android:layout_height="@dimen/fragmentmy_newh"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/common_marginbigest"
+                android:visibility="gone" />
+        </FrameLayout>
+        <!--  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            />
+        <TextView
+            android:id="@+id/fragmentmy_question"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_itemh"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/icon_question"
+            android:drawablePadding="@dimen/common_padding"
+            android:drawableRight="@mipmap/icon_jiantou"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/common_padding"
+            android:paddingRight="@dimen/common_padding"
+            android:text="意见反馈"
+            android:textColor="@color/common_textcolor"
+            android:textSize="@dimen/common_itembigsize" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

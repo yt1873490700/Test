@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_bgcolor">
+    <include
+        android:id="@+id/myuserinfo"
+        layout="@layout/activity_title"
+        />
+    <EditText
+        android:id="@+id/question_request"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:layout_marginLeft="@dimen/text_20"
+        android:background="@drawable/tv_cen"
+        android:hint="请将您的宝贵意见提交给我们，非常感谢。"
+        android:padding="@dimen/text_20"
+        android:gravity="left"
+        />
+    <Button
+        android:id="@+id/submit_queation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="提\t\t交"
+        android:textSize="@dimen/text_18"
+        android:textColor="@color/white"
+        android:background="@mipmap/btn_login"
+        android:layout_marginLeft="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:layout_marginTop="@dimen/text_20"
+        />
+</LinearLayout>

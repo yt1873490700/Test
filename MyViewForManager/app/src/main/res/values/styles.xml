@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="bsy_tabs">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/commonwindow_titleh</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/tab_padding_top_bottom</item>
+        <item name="android:background">@drawable/bsy_tab</item>
+        <item name="android:paddingTop">@dimen/tab_padding_top_bottom</item>
+        <item name="android:textSize">@dimen/text_size_bsy_title</item>
+        <item name="android:textColor">@drawable/bsy_tab_text_color</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:selectAllOnFocus">false</item>
+
+    </style>
+
+    <style name="home_icon_button_style" parent="@android:style/Widget.Button">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@color/common_textcolor</item>
+        <item name="android:textSize">@dimen/common_itembigsize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Home_Subtitle_TextView_Style" parent="@android:style/Widget.TextView">
+        <item name="android:drawablePadding">@dimen/common_padding</item>
+        <item name="android:drawableLeft">@drawable/shape_textview_left_solid</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">@dimen/common_padding</item>
+        <item name="android:paddingRight">@dimen/common_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/common_itembigsize</item>
+        <item name="android:textColor">@color/common_textcolor</item>
+    </style>
+
+    <!-- RaidoButton字体风格 -->
+    <style name="RBTextColorStyle">
+        <item name="android:textColor">@drawable/color_radiobutton_textcolor_selector</item>
+        <item name="android:textSize">@dimen/common_titlesmalls</item>
+    </style>
+    <!-- 左圆角RadioButton风格 -->
+    <style name="LeftRadioButtonStyle" parent="@style/RBTextColorStyle">
+        <item name="android:paddingTop">@dimen/common_paddingsmall</item>
+        <item name="android:paddingBottom">@dimen/common_paddingsmall</item>
+        <item name="android:paddingRight">@dimen/common_paddingbigger</item>
+        <item name="android:paddingLeft">@dimen/common_paddingbigger</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_radiobutton_left_selector</item>
+    </style>
+    <!-- 直角RadioButton风格 -->
+    <style name="CenterRadioButtonStyle" parent="@style/RBTextColorStyle">
+        <item name="android:paddingTop">@dimen/common_paddingsmall</item>
+        <item name="android:paddingBottom">@dimen/common_paddingsmall</item>
+        <item name="android:paddingRight">@dimen/common_paddingbigger</item>
+        <item name="android:paddingLeft">@dimen/common_paddingbigger</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_radiobutton_center_selector</item>
+    </style>
+    <!-- 右圆角RadioButton风格 -->
+    <style name="RightRadioButtonStyle" parent="@style/RBTextColorStyle">
+        <item name="android:paddingTop">@dimen/common_paddingsmall</item>
+        <item name="android:paddingBottom">@dimen/common_paddingsmall</item>
+        <item name="android:paddingRight">@dimen/common_paddingbigger</item>
+        <item name="android:paddingLeft">@dimen/common_paddingbigger</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_radiobutton_right_selector</item>
+    </style>
+</resources>

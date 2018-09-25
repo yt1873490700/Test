@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:layout_marginTop="@dimen/text_20"
+        >
+        <TextView
+            android:id="@+id/penron"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/tv_cen"
+            android:hint="\t\t点击选择发送对象"
+            android:textSize="@dimen/text_16"
+            android:drawableRight="@mipmap/login_spinner_down_blure1"
+            />
+        <TextView
+            android:id="@+id/quanxuan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tv_cen"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/text_16"
+            android:text="全选"
+
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/tv_cen"
+        android:hint="\t\t请输入主题"
+        android:paddingLeft="5dp"
+        android:textSize="@dimen/text_16"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:id="@+id/content"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/tv_cen"
+        android:hint="\t\t请输入内容"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="@dimen/text_16"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/text_20"
+        android:layout_marginRight="@dimen/text_20"
+        android:layout_marginTop="@dimen/text_20"
+        >
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/btn_login"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_18"
+            android:text="发\t\t布"
+            />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/text_20"
+            android:layout_height="match_parent"
+            android:background="@mipmap/btn_login"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_18"
+            android:text="保\t\t存"
+            />
+
+    </LinearLayout>
+</LinearLayout>

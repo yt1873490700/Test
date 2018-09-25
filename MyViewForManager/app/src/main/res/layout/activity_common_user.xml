@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/vip_title"
+        layout="@layout/activity_title"
+        />
+    <RadioGroup
+        android:layout_below="@+id/vip_title"
+        android:id="@+id/tzgg_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commonwindow_titleh"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_paddingsmall" >
+
+        <RadioButton
+            android:id="@+id/tzgg_radiobtn_left"
+            style="@style/LeftRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/fzy" />
+
+        <RadioButton
+            android:id="@+id/tzgg_radiobtn_center"
+            style="@style/CenterRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yfs" />
+
+        <RadioButton
+            android:id="@+id/tzgg_radiobtn_right"
+            style="@style/RightRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cgx" />
+    </RadioGroup>
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@+id/tzgg_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"
+        />
+    <FrameLayout
+        android:id="@+id/tzgg_parent_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/divider" />
+</RelativeLayout>

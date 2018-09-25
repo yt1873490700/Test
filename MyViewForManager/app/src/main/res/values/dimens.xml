@@ -1,0 +1,136 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- 公共模块  开始 -->
+
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">15dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">20dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_button_margin_left">8dp</dimen>
+    <dimen name="drop_down_list_footer_button_height">48dp</dimen>
+
+    <!-- width height 相同 -->
+    <dimen name="loading_progresswh">60dp</dimen>
+    <dimen name="loading_iconwh">20dp</dimen>
+    <dimen name="common_errorimgwh">50dp</dimen>
+    <dimen name="common_actionwh">50dp</dimen>
+    <dimen name="common_progresswh">30dp</dimen>
+    <dimen name="windowexit_imgwh">20dp</dimen>
+    <dimen name="sidebarw_toastwh">80dp</dimen>
+    <dimen name="home_icontitlewh">3dp</dimen>
+    <dimen name="phonefind_getver">100dp</dimen>
+    <dimen name="common_itemh">50dp</dimen>
+    <dimen name="fragmentmy_infolayouth">80dp</dimen>
+    <dimen name="recommoned2_iconwh">50dp</dimen>
+    <dimen name="common_item1h">40dp</dimen>
+    <dimen name="recommoned2_numwh">18dp</dimen>
+    <dimen name="recommoned2_numwh1">10dp</dimen>
+    <dimen name="common_item2h">40dp</dimen>
+    <dimen name="common_halfitemh">25dp</dimen>
+
+    <!-- size -->
+    <dimen name="common_titles">18dp</dimen>
+    <dimen name="common_titles_repair">16dp</dimen>
+    <dimen name="common_titlesmalls">14dp</dimen>
+    <dimen name="loadingtext_size">12dp</dimen>
+    <dimen name="common_errortext">12dp</dimen>
+    <dimen name="commonwindow_titles">16dp</dimen>
+    <dimen name="login_editS">14dp</dimen>
+    <dimen name="pagertitlelayout_s">12dp</dimen>
+    <dimen name="commonwindow_items">16dp</dimen>
+    <dimen name="commonwindow_itemssmall">12dp</dimen>
+    <dimen name="sidebarw_toasts">30dp</dimen>
+    <dimen name="common_itembigsize">14dp</dimen>
+    <dimen name="common_itemsmallsize">12dp</dimen>
+    <dimen name="common_itemsmallestsize">10dp</dimen>
+    <dimen name="common_itembigsize1">16dp</dimen>
+    <dimen name="common_itembigestsize">18dp</dimen>
+    <dimen name="common_itembigest1size">30dp</dimen>
+
+    <dimen name="common_baoxiusize">15dp</dimen>
+    <dimen name="common_baoxiutextsize">20dp</dimen>
+    <!-- margin -->
+    <dimen name="common_marginType">5dp</dimen>
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="common_marginbig">20dp</dimen>
+    <dimen name="common_marginbigs">17dp</dimen>
+    <dimen name="common_marginsmall">5dp</dimen>
+    <dimen name="common_marginsmini">2dp</dimen>
+    <dimen name="common_marginbigest">40dp</dimen>
+    <dimen name="common_marginmostbig">80dp</dimen>
+    <dimen name="windowexit_exit1margin">-5dp</dimen>
+    <dimen name="windowexit_exit2margin">5dp</dimen>
+    <dimen name="login_namemargin">30dp</dimen>
+    <dimen name="login_namemargins">40dp</dimen>
+    <!-- line -->
+    <dimen name="common_lineh">1px</dimen>
+    <dimen name="common_linew">1px</dimen>
+
+    <!-- height -->
+    <dimen name="login_welcomeh">100dp</dimen>
+    <dimen name="commonwindow_titleh">40dp</dimen>
+    <dimen name="common_titleh">45dp</dimen>
+    <dimen name="common_titlebottomh">50dp</dimen>
+    <dimen name="windowconfirm_itemlayoutH">40dp</dimen>
+    <dimen name="commonbanner_h">120dp</dimen>
+    <dimen name="slide_itemh">50dp</dimen>
+    <dimen name="common_recommoned1h">100dp</dimen>
+    <dimen name="about_logoh">84dp</dimen>
+    <dimen name="fragmentmy_newh">18dp</dimen>
+    <dimen name="common_recommoned2h">100dp</dimen>
+    <dimen name="listh_jiantou">15dp</dimen>
+    <dimen name="common_listh">50dp</dimen>
+    <dimen name="common_chart_height">256dp</dimen>
+
+    <!-- width -->
+    <dimen name="sidebar_w">20dp</dimen>
+    <dimen name="about_logow">143dp</dimen>
+    <dimen name="fragmentmy_neww">36dp</dimen>
+    <dimen name="scheduleitem_numw">50dp</dimen>
+    <dimen name="scheduleitem_timew">120dp</dimen>
+    <dimen name="listw_jiantou">8dp</dimen>
+
+    <!-- padding -->
+    <dimen name="common_padding">10dp</dimen>
+    <dimen name="common_paddingbig">40dp</dimen>
+    <dimen name="common_paddingbigger">20dp</dimen>
+    <dimen name="common_paddingsmall">4dp</dimen>
+    <dimen name="common_paddingmini">2dp</dimen>
+    <dimen name="common_titlebottompadding">5dp</dimen>
+    <dimen name="fragmentmy_namepadding">100dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+
+    <!-- radius -->
+    <dimen name="common_radius">8px</dimen>
+    <!-- 公共模块  结束 -->
+
+
+    <!-- 历次跟踪 tab 开始 -->
+    <dimen name="tab_padding_top_bottom">16dp</dimen>
+    <dimen name="tab_padding_left_right">30dp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <!-- 历次跟踪 tab 结束 -->
+
+
+    <!-- 小题得分详单 开始 -->
+    <dimen name="xtdfxd_summary_title_height">30dp</dimen>
+    <dimen name="xtdfxd_summary_value_height">40dp</dimen>
+    <dimen name="xtdfxd_col_height">50dp</dimen>
+    <!-- 小题得分详单 结束 -->
+
+    <dimen name="schedule_width1">100dp</dimen>
+    <dimen name="schedule_width2">70dp</dimen>
+    <!-- 字体大小 -->
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="text_16">14sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_size_bsy_title">16sp</dimen>
+</resources>

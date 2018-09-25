@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/user_divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/common_bgcolor"
+        />
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/user_divider"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/zbpk_item"
+        android:drawablePadding="@dimen/text_16"
+        android:textSize="@dimen/text_18"
+        android:text="张三" />
+
+    <TextView
+        android:id="@+id/textView_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="@dimen/text_18"
+        android:textSize="@dimen/text_16"
+        android:text="性别" />
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:paddingLeft="@dimen/text_18"
+        android:layout_below="@+id/textView_name"
+        android:textSize="@dimen/text_16"
+        android:layout_toRightOf="@+id/textView_sex"
+        android:text="年龄" />
+
+    <TextView
+        android:id="@+id/textView_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/textView_name"
+        android:layout_toRightOf="@+id/textView_age"
+        android:paddingLeft="@dimen/text_18"
+        android:textSize="@dimen/text_16"
+        android:text="电话" />
+    <TextView
+        android:layout_below="@+id/textView_phone"
+        android:id="@+id/user_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/text_16"
+        android:textSize="@dimen/text_16"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/text_20"
+        android:layout_marginLeft="@dimen/text_16"
+        android:layout_centerVertical="true"
+        android:text="删除"
+        android:background="@drawable/dark_tv_cen"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor_repair"/>
+    <TextView
+        android:layout_below="@+id/textView_phone"
+        android:id="@+id/user_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_16"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="查看历史数据"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/blue_tv_cen"
+        android:layout_toLeftOf="@+id/user_delete"
+        android:textColor="@color/commontitle_bg"/>
+
+    <TextView
+        android:layout_below="@+id/textView_phone"
+        android:id="@+id/user_measure_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_16"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="开始测量"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="@dimen/text_10"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/red_tv_cen"
+        android:layout_toLeftOf="@+id/user_measure"
+        android:textColor="@color/at_score_lv3"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/myuserinfo"
+        layout="@layout/activity_title"
+        />
+    <TextView
+        android:id="@+id/text_msg"
+        android:layout_below="@+id/myuserinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/text_18"
+        android:text="你好，\n\n下午三点将在2楼会议室开会，需要汇报近期工作，请携带笔记本电脑准时参加。" />
+    <ImageView
+        android:layout_below="@+id/text_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/text_20"
+        />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/lunbo_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#DCDCDC" >
+        <!-- 注意程序中要导入v4jar包 -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#ffffff" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/paintview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            android:background="#00000000"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/home_title1"
+        style="@style/Home_Subtitle_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/lunbo_view"
+        android:text="@string/msg_title1" />
+
+    <LinearLayout
+        android:layout_below="@+id/home_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <Button
+            android:id="@+id/user_manager"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="用户管理" />
+        <Button
+            android:id="@+id/vip_user"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="数据管理" />
+
+        <Button
+            android:id="@+id/home_measure"
+            style="@style/home_icon_button_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_status"
+            android:drawableTop="@mipmap/icon_xtdf"
+            android:text="用户测量" />
+
+    </LinearLayout>
+</RelativeLayout>

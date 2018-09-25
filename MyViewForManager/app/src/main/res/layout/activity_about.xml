@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bgcolor"
+    >
+    <include
+        android:id="@+id/myuserinfo"
+        layout="@layout/activity_title"
+        />
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/banben"
+        android:layout_below="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_20"
+        android:text="博教育 \t\t 1.1.0"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/update"
+        android:layout_below="@+id/banben"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/text_20"
+        android:text="版本更新"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:gravity="center"
+        android:text="博冠科技\t\t\t\t\t 版权所有" />
+
+
+</RelativeLayout>

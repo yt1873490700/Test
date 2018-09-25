@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 系统app参数 -->
+    <bool name="debug_config">true</bool>
+    <bool name="notify_sound">true</bool>
+    <bool name="notify_vibrate">true</bool>
+    <bool name="notify_light">true</bool>
+    
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">管理端</string>
+
+
+    <!--界面名称-->
+    <string name="home_title">首页</string>
+    <string name="message_title">信息</string>
+    <string name="myinfo_title">我的</string>
+
+    <!--登录-->
+    <string name="login_name">请输入姓名</string>
+    <string name="login_phone">请输入电话</string>
+    <string name="login_psd">请输入所属医院</string>
+    <string name="login_work">请输入现任职位</string>
+    <string name="login_work_place">请输入办公室门牌号</string>
+
+    <string name="phonr_tip">请输入正确的电话号码</string>
+    <string name="login_tip">请完善登陆信息</string>
+
+    <string name="fzy">发消息</string>
+    <string name="yfs">已发送</string>
+    <string name="cgx">草稿箱</string>
+    <!--title-->
+    <string name="msg_title1">用户提醒</string>
+    <string name="msg_title2">新闻推送</string>
+
+    <!--测量-->
+    <string name="measure_disconnect">已断开连接...</string>
+    <string name="measure_connect">连接成功</string>
+    <string name="measure_begin">开始</string>
+    <string name="measure_stop">停止</string>
+    <string name="measure_save">保存</string>
+    <string name="measure_select">选择用户:</string>
+
+</resources>

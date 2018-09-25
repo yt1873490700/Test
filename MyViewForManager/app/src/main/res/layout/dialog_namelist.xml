@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <Button
+        android:id="@+id/button_cencle"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@color/commontitle_bg"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:text="关闭" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:text="设备名称" />
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView_name"
+        android:background="@color/province_line_border"
+        />
+    <ListView
+        android:layout_below="@+id/view_divider"
+        android:id="@+id/ble_namelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/province_line_border"
+        />
+</RelativeLayout>
